@@ -16,15 +16,15 @@ nav{
 }
 
 nav a{
-    fort-size:24px;
+    font-size:24px;
     color:black;
    
 }
- nav a: hover; {
+ nav a:hover{
 text-decoration:none;
  
  }   
 
- h1,h2,h3, footer{
+ h1,h2,h3,footer{
     text-align:center;
  }
