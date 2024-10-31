@@ -1,0 +1,30 @@
+body {
+    background-color:aquamarine;
+}
+
+#container{
+    background-color: white;
+    width:1200 px;
+    margin:20px auto;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    margin:20px 0;
+}
+
+nav a{
+    fort-size:24px;
+    color:black;
+   
+}
+ nav a: hover; {
+text-decoration:none;
+ 
+ }   
+
+ h1,h2,h3, footer{
+    text-align:center;
+ }
