@@ -30,10 +30,12 @@ display:inline-block;
   height:40px;
   ;line-height:40px;
  }
-{
-    #banner
-  width: 100%; 
-}
+
+    #banner{
+         width: 100%;  
+    }
+
+
 
 
 
@@ -52,9 +54,26 @@ heading_style{
     background-color:white;
     color:black;
  }
+main{
+    display: flex;
+}
+section{
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border: solid black;
 
- 
+}
+
+aside{
+   display:block;
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    border: solid black;
+}
 
  h1,h2,h3,footer{
     text-align:center;
+
  }
