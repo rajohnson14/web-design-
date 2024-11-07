@@ -1,0 +1,60 @@
+body {
+    background-color:rgb(214, 218, 9);
+}
+
+#container{
+    background-color: white;
+    width: 65%;
+    margin:20px auto;
+    background-color: rgb(228, 45, 45);
+    border: 2px solid black;
+    padding: 20px;
+}
+ nav ul {
+    list-style-type: none;
+     padding: 0;
+ }
+
+ nav li {
+display:inline-block;
+ }
+
+ nav li a {
+  display:block;
+  color:white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin:0 20px;
+  width:125px;
+  height:40px;
+  ;line-height:40px;
+ }
+{
+    #banner
+  width: 100%; 
+}
+
+
+
+
+heading_style{
+    text-shadow: 2px 2px 2px #8d1818;
+}
+
+.movie_post{
+    width: 40%;
+    
+     
+}
+
+ nav a:hover{
+    background-color:white;
+    color:black;
+ }
+
+ 
+
+ h1,h2,h3,footer{
+    text-align:center;
+ }
