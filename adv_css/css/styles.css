@@ -46,7 +46,7 @@ display:inline-block;
 
 
 
-heading_style{
+.heading_style{
     text-shadow: 2px 2px 2px #8d1818;
 }
 
@@ -87,4 +87,8 @@ aside{
  h1,h2,h3,footer{
     text-align:center;
 
+ }
+
+ .small_image{
+    width: 50%;
  }
