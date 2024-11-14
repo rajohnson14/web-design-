@@ -9,6 +9,6 @@
 
 <li><a href="https://rajohnson14.github.io/web-design-/adv_css/index.html">Advanced CSS</a></li>
 
-<li><a href="Responsive/index.html"target=_blank>Respnsive web design</a></li>
+<li><a href="http://rajohnson14.github.io/web-design-/Respnsive/web-design">Responsive Web Design/a></li>
 
 </ul>
