@@ -1,0 +1,132 @@
+/* Global Styles */
+body {      
+    background-color: rgb(187, 28, 28) ;
+    font-family: 'Almendra', serif;
+}
+.small_images{
+    width: 40%;
+}
+img{
+    display:Block;
+    margin: 0 auto;
+    width:100%;
+}
+
+
+ 
+#container {
+    margin: auto;
+    background-color: yellow;
+    border: 10px solid black;
+
+}
+h1,h2,h3{
+    text-align: center;
+    color: black ;
+    text-shadow: 1px 1px 1px gray;
+    font-family:'Rouge Script',cursive;
+} 
+h1{
+    font-size: 5em;
+}
+ 
+ h2{
+font-size: 3em;
+    }
+
+h3{
+    font-size: 2em;
+}
+
+/* Mobile Styles*/
+@media (min-width:320px) {
+    #container{
+        width: 90%;
+    }
+    nav {
+        padding:5px;
+        margin-top:10px;
+        text-align:center;
+        background-color: black;
+    }
+    nav ul {
+        list-style-type: none;
+        padding:0; 
+    }
+    nav li {
+        display: block;
+    
+    }
+    nav li a{
+        display:block;
+        height:40px;
+        line-height: 40px;
+        background-color:crimson;
+        color: white;
+        font-size:24px;
+        text-decoration:none;
+        margin-top:5px;
+    
+    
+    }
+    nav li a:hover{
+        background-color: gold;
+    
+    }
+    main{
+        padding:20px;
+
+    } 
+    
+    footer{
+        text-align:center;
+        padding:40px;
+        color:red;
+        text-shadow: 1px 1px 1px black;
+    
+    }
+}   
+/* tablet styles */
+@media(min-width:768px){
+    nav li {
+        display: inline-block;
+        }
+
+        nav li a {
+            width: 225px;
+            height:50px;
+            line-height:50px;
+            margin:5px;
+        }
+}
+ /* decktop styles*/
+@media(min-width:1024px){
+    #container{
+        width:65%;
+        margin:20px auto;
+        border:4px solid black;
+        border-radius:20px;
+    }
+    nav{
+        padding: 2px;
+        margin: 0;
+       
+    
+    }
+    nav li a{
+        background-color: black;  
+      }
+       
+      #multi_column{
+         display:flex; 
+      }
+      
+      .column{
+          margin:10px ;
+          padding:5px;
+          border:2px solid black;
+          width: 50%;
+      
+      }
+      }
+
